@@ -3,4 +3,15 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Body text paragraphs -->
+    <string name="signature_text">After a battle that briefly reunited Carol with her old flame Captain Marvel, her original Ms. Marvel costume was badly damaged. Carol decided that she had finally come into her own as a superhero, and wanted a new costume that was uniquely hers rather than being a reflection of Captain Marvel\'s. With some help from her friend Janet Van Dyne (the fashion-conscious super-heroine known as the Wasp), Carol designed a new black one-piece uniform with a gold lightning bolt across the chest, accented by high black boots and gloves. She kept the red scarf as a reminder of her original costume, though she now wore it as a sash tied around her waist. The costume became Ms. Marvel\'s signature look, and though Carol would set it aside on certain occasions (once when she became Binary, and another time when she changed her code name to Warbird), she has always gone back to this costume.</string>
+    <string name="original_text">After getting blown up and saved by Captain Marvel, Carol Danvers gained super strength, speed and a seventh sense that would put her consciousness to sleep and allow Ms. Marvel to fight the prophesied problems. Her first costume consisted of a one-piece outfit with built-in gloves and an exposed mid-riff somewhat scandalous by 1977 standards. She also rocked a scarf and boots. The look might be a little dated by today\'s standards, but back then it proved pretty hot stuff. The real question though: how did she get in and out of it?</string>
+
+    <!-- To be used for AppCompatCheckbox -->
+    <string name="checkbox_favorite">You like?</string>
+
+    <!-- To be used for EditText -->
+    <string name="hive_mind_hint">What\'s your favorite Ms. Marvel moment?</string>
+
 </resources>
