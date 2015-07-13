@@ -13,5 +13,6 @@
 
     <!-- To be used for EditText -->
     <string name="hive_mind_hint">What\'s your favorite Ms. Marvel moment?</string>
+    <string name="title_activity_original_costume">OriginalCostumeActivity</string>
 
 </resources>

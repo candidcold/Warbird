@@ -14,7 +14,7 @@
         >
 
         <android.support.design.widget.CollapsingToolbarLayout
-            android:id="@+id/warbird_collapsing_toolbar"
+            android:id="@+id/original_collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
@@ -24,7 +24,7 @@
             >
 
             <ImageView
-                android:id="@+id/warbird_image"
+                android:id="@+id/original_costume_image"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:fitsSystemWindows="true"
@@ -33,7 +33,7 @@
                 />
 
             <android.support.v7.widget.Toolbar
-                android:id="@+id/warbird_toolbar"
+                android:id="@+id/original_costume_toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:fitsSystemWindows="true"
@@ -59,4 +59,5 @@
     </android.support.v4.widget.NestedScrollView>
 
 </android.support.design.widget.CoordinatorLayout>
+
 
