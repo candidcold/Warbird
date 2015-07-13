@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warbird color scheme-->
+    <color name="black">#212121</color>
+    <color name="blonde">#FFF176</color>
+    <color name="thunderbolt">#FFEB3B</color>
+    <color name="tassle">#F44336</color>
+
+    <!-- Alternate color scheme (potentially used)-->
+    <color name="deep_black">#000000</color>
+    <color name="burgundy">#B71C1C</color>
+    <color name="impact">#FFCA28</color>
+</resources>
