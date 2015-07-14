@@ -9,8 +9,8 @@
     <dimen name="spacing_from_edge">16dp</dimen>
 
     <!-- Text Sizes -->
-    <dimen name="header_text_size">16sp</dimen>
-    <dimen name="content_text_size">12sp</dimen>
+    <dimen name="header_text_size">18sp</dimen>
+    <dimen name="content_text_size">14sp</dimen>
 
 
 </resources>

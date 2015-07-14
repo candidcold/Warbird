@@ -1,9 +1,16 @@
 package com.candidcold.warbird;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
 
 // This project is an exercise in understanding styles and themes.
 // Saying that, there shouldn't be much interesting Java code in here.
@@ -13,6 +20,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.warbird_toolbar);
+        setSupportActionBar(toolbar);
+
+        CollapsingToolbarLayout collapsingToolbarLayout =
+                (CollapsingToolbarLayout) findViewById(R.id.warbird_collapsing_toolbar);
+
+        collapsingToolbarLayout.setTitle("Warbird");
+
+        ImageView toolbarImage = (ImageView) findViewById(R.id.warbird_image);
+
+        Glide.with(this).load(R.drawable.ms_marvel_warbird).into(toolbarImage);
+
+        toolbarImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), OriginalCostumeActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override

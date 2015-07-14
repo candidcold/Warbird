@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
+            app:contentScrim="@color/burgundy"
             app:expandedTitleMarginEnd="64dp"
             app:expandedTitleMarginStart="48dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
@@ -54,6 +55,32 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             >
+
+            <TextView
+                android:id="@+id/original_costume_origin_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/look_origin"/>
+
+            <TextView
+                android:id="@+id/original_costume_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/original_text"
+                style="@style/CostumeDescription"
+                />
+
+            <TextView
+                android:id="@+id/original_costume_notable_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notable_runs"/>
+
+            <TextView
+            android:id="@+id/original_costume_notable_run"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/original_notable_run"/>
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

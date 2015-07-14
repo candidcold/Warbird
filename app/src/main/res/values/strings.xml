@@ -1,18 +1,31 @@
 <resources>
     <string name="app_name">Warbird</string>
+    <string name="title_activity_original_costume">OriginalCostumeActivity</string>
+
+    <string name="warbird">Warbird</string>
+    <string name="original">Original Costume</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
     <!-- Body text paragraphs -->
     <string name="signature_text">After a battle that briefly reunited Carol with her old flame Captain Marvel, her original Ms. Marvel costume was badly damaged. Carol decided that she had finally come into her own as a superhero, and wanted a new costume that was uniquely hers rather than being a reflection of Captain Marvel\'s. With some help from her friend Janet Van Dyne (the fashion-conscious super-heroine known as the Wasp), Carol designed a new black one-piece uniform with a gold lightning bolt across the chest, accented by high black boots and gloves. She kept the red scarf as a reminder of her original costume, though she now wore it as a sash tied around her waist. The costume became Ms. Marvel\'s signature look, and though Carol would set it aside on certain occasions (once when she became Binary, and another time when she changed her code name to Warbird), she has always gone back to this costume.</string>
+    <string name="signature_notable_run">During the House of M storyline in 2005, Carol realized her full potential as a superhero and became one of Earth\'s greatest champions. Though that reality was eventually reversed, Carol was one of the few heroes to remember her House of M self, and it inspired her to change her name back to Ms. Marvel and become the best hero she could possibly be. This led to the return of her own comic book title in 2006, nearly 30 years after the debut of her original title. Ms. Marvel vol. 2 ran 50 issues and firmly re-established her character as one of Marvel\'s premiere super-heroines. After the events of Avengers vs X-Men, Carol undergoes another name change; this time taking up the legacy of Captain Marvel-the hero who was the cause of her original power manifestation.</string>
+
     <string name="original_text">After getting blown up and saved by Captain Marvel, Carol Danvers gained super strength, speed and a seventh sense that would put her consciousness to sleep and allow Ms. Marvel to fight the prophesied problems. Her first costume consisted of a one-piece outfit with built-in gloves and an exposed mid-riff somewhat scandalous by 1977 standards. She also rocked a scarf and boots. The look might be a little dated by today\'s standards, but back then it proved pretty hot stuff. The real question though: how did she get in and out of it?</string>
+    <string name="original_notable_run">When a dormant Kree Sentry robot that NASA had been studying activated and went berserk, Mar-Vell defeated the rampaging robot and saved Carol\'s life in the process, with the press dubbing the mysterious new superhero \"Captain Marvel.\" Carol became drawn to Mar-Vell and a romance developed between the two. A Kree enemy of Mar-Vell\'s named Yon-Rogg soon learned of the relationship and kidnapped Carol as bait to lure Mar-Vell into a trap. When Mar-Vell came to the rescue, Yon-Rogg deployed forbidden Kree technology called the Psyche-Magnitron in an attempt to destroy his enemy. During the battle the Psyche-Magnitron, which had the power to turn thoughts into reality, exploded and Captain Marvel shielded Carol from its radiation with his own body, causing Carol to absorb much of his own genetic template. Carol\'s wish to stand with Mar-Vell as an equal rather than a helpless victim completed the process, and her DNA became a perfect synthesis of Kree and human genes.
+
+After Carol recovered from the explosion, she had gained superhuman powers much like those of Captain Marvel and her alter-ego even wore a costume patterned after that of the Kree hero. She became known as Ms. Marvel, and soon established herself as a powerful superhero in her own right.</string>
+
+    <!-- Labels -->
+    <string name="notable_runs">Notable run</string>
+    <string name="look_origin">Earth\'s Mightiest Costumes</string>
 
     <!-- To be used for AppCompatCheckbox -->
     <string name="checkbox_favorite">You like?</string>
 
     <!-- To be used for EditText -->
-    <string name="hive_mind_hint">What\'s your favorite Ms. Marvel moment?</string>
-    <string name="title_activity_original_costume">OriginalCostumeActivity</string>
+    <string name="hive_mind_hint">What\'s your favorite Ms. Marvel moment in this costume?</string>
+
 
 </resources>

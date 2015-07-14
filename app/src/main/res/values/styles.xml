@@ -1,12 +1,48 @@
 <resources>
 
+    <!-- Themes -->
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- This theme carries what I want to be consistent throughout the entire application -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorEdgeEffect">@color/blonde</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:windowActionBar">false</item>
     </style>
 
-    <!-- TODO: Make a Signature Theme for our MainActivity -->
+    <!-- Warbird/Signature Theme for our MainActivity -->
+    <style name="SignatureTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:colorAccent">@color/thunderbolt</item>
+        <item name="android:title">@string/warbird</item>
 
-    <!-- TODO: Make an Original theme for our SecondActivity -->
+    </style>
+
+    <!-- Original Costume theme for our OriginalCostumeActivity -->
+    <style name="OriginalCostumeTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/burgundy</item>
+        <item name="colorAccent">@color/deep_black</item>
+        <item name="android:title">@string/original</item>
+
+    </style>
+
+    <!-- TODO: Figure out a use for the tertiary colors -->
+
+    <!-- Styles -->
+    <style name="BodyText" parent="android:Widget.TextView">
+        <item name="android:paddingLeft">@dimen/spacing_from_edge</item>
+        <item name="android:paddingRight">@dimen/spacing_from_edge</item>
+        <!--<item name="android:verticalSpacing">@dimen/spacing_between_content</item>-->
+        <item name="android:textSize">@dimen/content_text_size</item>
+    </style>
+
+    <style name="CostumeDescription" parent="BodyText">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- Style the floating label-->
+    <style name="FloatingTextLabel" parent="Widget.Design.TextInputLayout">
+    </style>
+
 
 </resources>

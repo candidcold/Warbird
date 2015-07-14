@@ -1,9 +1,16 @@
 package com.candidcold.warbird;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
 
 public class OriginalCostumeActivity extends AppCompatActivity {
 
@@ -11,6 +18,26 @@ public class OriginalCostumeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_original_costume);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.original_costume_toolbar);
+        setSupportActionBar(toolbar);
+
+        CollapsingToolbarLayout collapsingToolbarLayout =
+                (CollapsingToolbarLayout) findViewById(R.id.original_collapsing_toolbar);
+
+        ImageView toolbarImage = (ImageView) findViewById(R.id.original_costume_image);
+
+        Glide.with(this).load(R.drawable.ms_marvel_jungle).into(toolbarImage);
+
+        toolbarImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
     @Override

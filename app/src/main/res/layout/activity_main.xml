@@ -9,7 +9,7 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="256dp"
+        android:layout_height="wrap_content"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         >
 
@@ -17,10 +17,11 @@
             android:id="@+id/warbird_collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fitsSystemWindows="true"
+            app:contentScrim="@color/black"
             app:expandedTitleMarginEnd="64dp"
             app:expandedTitleMarginStart="48dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:title="@string/warbird"
             >
 
             <ImageView
@@ -55,8 +56,50 @@
             android:orientation="vertical"
             >
 
+            <TextView
+                android:id="@+id/warbird_origin_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/look_origin"/>
+
+            <TextView
+                android:id="@+id/warbird_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signature_text"
+                style="@style/CostumeDescription"
+                />
+
+            <TextView
+                android:id="@+id/warbird_notable_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notable_runs"/>
+
+            <TextView
+                android:id="@+id/warbird_notable_run"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signature_notable_run"
+                style="@style/BodyText"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/favorite_moment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hive_mind_hint"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 
 </android.support.design.widget.CoordinatorLayout>
+
 
